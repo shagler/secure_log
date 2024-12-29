@@ -3,4 +3,16 @@ name = "secure_log"
 version = "0.1.0"
 edition = "2024"
 
+[[example]]
+name = "simple_logging"
+path = "examples/simple_logging.rs"
+
 [dependencies]
+log = "0.4"
+aes-gcm = "0.10.1"
+base64 = "0.21"
+chrono = "0.4"
+crossbeam-channel = "0.5"
+rand = "0.8"
+thiserror = "1.0"
+sha2 = "0.10"
