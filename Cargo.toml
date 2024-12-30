@@ -2,6 +2,14 @@
 name = "secure_log"
 version = "0.1.0"
 edition = "2024"
+description = "A secure logging library for Rust with AES-256-GCM encryption"
+authors = ["Shawn Hagler haglershawn@gmail.com"]
+license = "MIT"
+repository = "https://github.com/shagler/secure_log"
+documentation = "https://docs.rs/secure_log"
+readme = "README.md"
+keywords = ["logging", "encryption", "security", "async", "aes-256-gcm"]
+categories = ["cryptography", "development-tools::debugging"]
 
 [[example]]
 name = "simple_logging"
